@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="11.748" tests="11" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/monikadubey/Downloads/GeolocationApiAutomation-master 2/target/test-classes:/Users/monikadubey/Downloads/GeolocationApiAutomation-master 2/target/classes:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-java/7.17.0/cucumber-java-7.17.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-core/7.17.0/cucumber-core-7.17.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-gherkin/7.17.0/cucumber-gherkin-7.17.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.17.0/cucumber-gherkin-messages-7.17.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/testng-xml-formatter/0.1.0/testng-xml-formatter-0.1.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/datatable/7.17.0/datatable-7.17.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-plugin/7.17.0/cucumber-plugin-7.17.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/docstring/7.17.0/docstring-7.17.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/html-formatter/21.3.1/html-formatter-21.3.1.jar:/Users/monikadubey/.m2/repository/io/cucumber/junit-xml-formatter/0.4.0/junit-xml-formatter-0.4.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/monikadubey/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-testng/7.17.0/cucumber-testng-7.17.0.jar:/Users/monikadubey/.m2/repository/org/testng/testng/7.10.1/testng-7.10.1.jar:/Users/monikadubey/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/monikadubey/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-picocontainer/7.17.0/cucumber-picocontainer-7.17.0.jar:/Users/monikadubey/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/monikadubey/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/monikadubey/.m2/repository/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar:/Users/monikadubey/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:/Users/monikadubey/.m2/repository/org/slf4j/slf4j-reload4j/2.0.12/slf4j-reload4j-2.0.12.jar:/Users/monikadubey/.m2/repository/ch/qos/reload4j/reload4j/1.2.22/reload4j-1.2.22.jar:/Users/monikadubey/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/monikadubey/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/monikadubey/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/monikadubey/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/monikadubey/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/monikadubey/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/monikadubey/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/monikadubey/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/monikadubey/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/monikadubey/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/monikadubey/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/monikadubey/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/monikadubey/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/monikadubey/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/monikadubey/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/monikadubey/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/monikadubey/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/monikadubey/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/monikadubey/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/monikadubey/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/monikadubey/.m2/repository/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar:/Users/monikadubey/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/monikadubey/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar:/Users/monikadubey/.m2/repository/tech/grasshopper/extentreports-cucumber7-adapter/1.14.0/extentreports-cucumber7-adapter-1.14.0.jar:/Users/monikadubey/.m2/repository/tech/grasshopper/extent-pdf-report/2.12.0/extent-pdf-report-2.12.0.jar:/Users/monikadubey/.m2/repository/tech/grasshopper/cucumber-pdf-report/2.14.0/cucumber-pdf-report-2.14.0.jar:/Users/monikadubey/.m2/repository/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.jar:/Users/monikadubey/.m2/repository/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.jar:/Users/monikadubey/.m2/repository/org/knowm/xchart/xchart/3.8.0/xchart-3.8.0.jar:/Users/monikadubey/.m2/repository/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar:/Users/monikadubey/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/monikadubey/.m2/repository/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar:/Users/monikadubey/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/Users/monikadubey/.m2/repository/tech/grasshopper/table-layout/1.5.1/table-layout-1.5.1.jar:/Users/monikadubey/.m2/repository/tech/grasshopper/rest-assured-cucumber-pdf-report/1.5.0/rest-assured-cucumber-pdf-report-1.5.0.jar:/Users/monikadubey/.m2/repository/com/aventstack/klov-reporter/5.1.0/klov-reporter-5.1.0.jar:/Users/monikadubey/.m2/repository/org/mongodb/mongodb-driver/3.6.4/mongodb-driver-3.6.4.jar:/Users/monikadubey/.m2/repository/org/mongodb/mongodb-driver-core/3.6.4/mongodb-driver-core-3.6.4.jar:/Users/monikadubey/.m2/repository/org/mongodb/bson/3.6.4/bson-3.6.4.jar:/Users/monikadubey/.m2/repository/tech/grasshopper/htmlextentreporter/1.1.0/htmlextentreporter-1.1.0.jar:/Users/monikadubey/.m2/repository/tech/grasshopper/extent-excel-report/1.4.0/extent-excel-report-1.4.0.jar:/Users/monikadubey/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/monikadubey/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/monikadubey/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/monikadubey/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/monikadubey/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/monikadubey/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/monikadubey/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/monikadubey/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/monikadubey/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/monikadubey/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/monikadubey/.m2/repository/com/jcabi/jcabi-log/0.24.1/jcabi-log-0.24.1.jar:/Users/monikadubey/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/monikadubey/Downloads/GeolocationApiAutomation-master 2/target/surefire/surefirebooter-20240829232025239_3.jar /Users/monikadubey/Downloads/GeolocationApiAutomation-master 2/target/surefire 2024-08-29T23-20-24_601-jvmRun1 surefire-20240829232025239_1tmp surefire_0-20240829232025239_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/monikadubey/Downloads/GeolocationApiAutomation-master 2/target/test-classes:/Users/monikadubey/Downloads/GeolocationApiAutomation-master 2/target/classes:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-java/7.17.0/cucumber-java-7.17.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-core/7.17.0/cucumber-core-7.17.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-gherkin/7.17.0/cucumber-gherkin-7.17.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.17.0/cucumber-gherkin-messages-7.17.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/testng-xml-formatter/0.1.0/testng-xml-formatter-0.1.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/datatable/7.17.0/datatable-7.17.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-plugin/7.17.0/cucumber-plugin-7.17.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/docstring/7.17.0/docstring-7.17.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/html-formatter/21.3.1/html-formatter-21.3.1.jar:/Users/monikadubey/.m2/repository/io/cucumber/junit-xml-formatter/0.4.0/junit-xml-formatter-0.4.0.jar:/Users/monikadubey/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/Users/monikadubey/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-testng/7.17.0/cucumber-testng-7.17.0.jar:/Users/monikadubey/.m2/repository/org/testng/testng/7.10.1/testng-7.10.1.jar:/Users/monikadubey/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/monikadubey/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/monikadubey/.m2/repository/io/cucumber/cucumber-picocontainer/7.17.0/cucumber-picocontainer-7.17.0.jar:/Users/monikadubey/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/monikadubey/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/Users/monikadubey/.m2/repository/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar:/Users/monikadubey/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:/Users/monikadubey/.m2/repository/org/slf4j/slf4j-reload4j/2.0.12/slf4j-reload4j-2.0.12.jar:/Users/monikadubey/.m2/repository/ch/qos/reload4j/reload4j/1.2.22/reload4j-1.2.22.jar:/Users/monikadubey/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/monikadubey/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/monikadubey/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/monikadubey/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/monikadubey/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/monikadubey/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/monikadubey/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/monikadubey/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/monikadubey/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/monikadubey/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/monikadubey/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/monikadubey/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/monikadubey/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/monikadubey/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/monikadubey/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/monikadubey/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/monikadubey/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/monikadubey/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/monikadubey/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/monikadubey/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/monikadubey/.m2/repository/org/jsoup/jsoup/1.17.2/jsoup-1.17.2.jar:/Users/monikadubey/.m2/repository/org/json/json/20240303/json-20240303.jar:/Users/monikadubey/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar:/Users/monikadubey/.m2/repository/tech/grasshopper/extentreports-cucumber7-adapter/1.14.0/extentreports-cucumber7-adapter-1.14.0.jar:/Users/monikadubey/.m2/repository/tech/grasshopper/extent-pdf-report/2.12.0/extent-pdf-report-2.12.0.jar:/Users/monikadubey/.m2/repository/tech/grasshopper/cucumber-pdf-report/2.14.0/cucumber-pdf-report-2.14.0.jar:/Users/monikadubey/.m2/repository/org/apache/pdfbox/pdfbox/2.0.26/pdfbox-2.0.26.jar:/Users/monikadubey/.m2/repository/org/apache/pdfbox/fontbox/2.0.26/fontbox-2.0.26.jar:/Users/monikadubey/.m2/repository/org/knowm/xchart/xchart/3.8.0/xchart-3.8.0.jar:/Users/monikadubey/.m2/repository/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar:/Users/monikadubey/.m2/repository/de/rototor/pdfbox/graphics2d/0.30/graphics2d-0.30.jar:/Users/monikadubey/.m2/repository/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar:/Users/monikadubey/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/Users/monikadubey/.m2/repository/tech/grasshopper/table-layout/1.5.1/table-layout-1.5.1.jar:/Users/monikadubey/.m2/repository/tech/grasshopper/rest-assured-cucumber-pdf-report/1.5.0/rest-assured-cucumber-pdf-report-1.5.0.jar:/Users/monikadubey/.m2/repository/com/aventstack/klov-reporter/5.1.0/klov-reporter-5.1.0.jar:/Users/monikadubey/.m2/repository/org/mongodb/mongodb-driver/3.6.4/mongodb-driver-3.6.4.jar:/Users/monikadubey/.m2/repository/org/mongodb/mongodb-driver-core/3.6.4/mongodb-driver-core-3.6.4.jar:/Users/monikadubey/.m2/repository/org/mongodb/bson/3.6.4/bson-3.6.4.jar:/Users/monikadubey/.m2/repository/tech/grasshopper/htmlextentreporter/1.1.0/htmlextentreporter-1.1.0.jar:/Users/monikadubey/.m2/repository/tech/grasshopper/extent-excel-report/1.4.0/extent-excel-report-1.4.0.jar:/Users/monikadubey/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/monikadubey/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/monikadubey/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/monikadubey/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/monikadubey/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/monikadubey/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/monikadubey/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/monikadubey/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/monikadubey/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/monikadubey/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/monikadubey/.m2/repository/com/jcabi/jcabi-log/0.24.1/jcabi-log-0.24.1.jar:/Users/monikadubey/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/monikadubey"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/22.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/monikadubey/Downloads/GeolocationApiAutomation-master 2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/monikadubey/Downloads/GeolocationApiAutomation-master 2/target/surefire/surefirebooter-20240829232025239_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2"/>
+    <property name="user.name" value="monikadubey"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/monikadubey/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/sf/xn4f_grx3jd8wwssqqxq1xgr0000gn/T/"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="/Users/monikadubey/Downloads/GeolocationApiAutomation-master 2"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/monikadubey/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="22.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Valid Request with All Fields&quot;, &quot;Geolocation API&quot;](1)" classname="runner.TestRunner" time="1.799">
+    <failure message="expected [403] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [403] but found [200]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at stepDefinitions.geolocationVerificationStepDefinition.theAPIShouldReturnAStatusCode(geolocationVerificationStepDefinition.java:47)
+	at ✽.the API should return a 200 status code(file:///Users/monikadubey/Downloads/GeolocationApiAutomation-master%202/src/test/resources/features/geolocationVerification.feature:6)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCl1cbsG4EVO7wJ103IqTG4xheubQY9AzM
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "homeMobileCountryCode": 310,
+    "homeMobileNetworkCode": 410,
+    "radioType": "gsm",
+    "carrier": "Vodafone",
+    "considerIp": true
+}
+{
+    "error": {
+        "code": 403,
+        "message": "PERMISSION_DENIED: You must enable Billing on the Google Cloud Project",
+        "errors": [
+            {
+                "message": "PERMISSION_DENIED: You must enable Billing on the Google Cloud Project",
+                "domain": "geolocation",
+                "reason": "forbidden"
+            }
+        ]
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Valid Request with IP Consideration Only&quot;, &quot;Geolocation API&quot;](2)" classname="runner.TestRunner" time="0.395">
+    <failure message="expected [403] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [403] but found [200]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at stepDefinitions.geolocationVerificationStepDefinition.theAPIShouldReturnAStatusCode(geolocationVerificationStepDefinition.java:47)
+	at ✽.the API should return a 200 status code(file:///Users/monikadubey/Downloads/GeolocationApiAutomation-master%202/src/test/resources/features/geolocationVerification.feature:12)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCl1cbsG4EVO7wJ103IqTG4xheubQY9AzM
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "homeMobileCountryCode": null,
+    "homeMobileNetworkCode": null,
+    "radioType": null,
+    "carrier": null,
+    "considerIp": true
+}
+{
+    "error": {
+        "code": 403,
+        "message": "PERMISSION_DENIED: You must enable Billing on the Google Cloud Project",
+        "errors": [
+            {
+                "message": "PERMISSION_DENIED: You must enable Billing on the Google Cloud Project",
+                "domain": "geolocation",
+                "reason": "forbidden"
+            }
+        ]
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Invalid API Key&quot;, &quot;Geolocation API&quot;](3)" classname="runner.TestRunner" time="0.675">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.googleapis.com/geolocation/v1/geolocate?key=INVALID_API_KEY
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "homeMobileCountryCode": 310,
+    "homeMobileNetworkCode": 410,
+    "radioType": "gsm",
+    "carrier": "Vodafone",
+    "considerIp": true
+}
+{
+    "error": {
+        "code": 400,
+        "message": "API key not valid. Please pass a valid API key.",
+        "errors": [
+            {
+                "message": "API key not valid. Please pass a valid API key.",
+                "domain": "global",
+                "reason": "badRequest"
+            }
+        ],
+        "status": "INVALID_ARGUMENT",
+        "details": [
+            {
+                "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+                "reason": "API_KEY_INVALID",
+                "domain": "googleapis.com",
+                "metadata": {
+                    "service": "geolocation.googleapis.com"
+                }
+            }
+        ]
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Missing API Key&quot;, &quot;Geolocation API&quot;](4)" classname="runner.TestRunner" time="0.346">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.googleapis.com/geolocation/v1/geolocate
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "homeMobileCountryCode": 310,
+    "homeMobileNetworkCode": 410,
+    "radioType": "gsm",
+    "carrier": "Vodafone",
+    "considerIp": true
+}
+{
+    "error": {
+        "code": 403,
+        "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+        "errors": [
+            {
+                "message": "Method doesn't allow unregistered callers (callers without established identity). Please use API Key or other form of API consumer identity to call this API.",
+                "domain": "global",
+                "reason": "forbidden"
+            }
+        ],
+        "status": "PERMISSION_DENIED"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Invalid homeMobileCountryCode&quot;, &quot;Geolocation API&quot;](5)" classname="runner.TestRunner" time="0.357">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCl1cbsG4EVO7wJ103IqTG4xheubQY9AzM
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "homeMobileCountryCode": "test",
+    "homeMobileNetworkCode": 410,
+    "radioType": "gsm",
+    "carrier": "Vodafone",
+    "considerIp": true
+}
+{
+    "error": {
+        "code": 400,
+        "message": "Invalid value at 'home_mobile_country_code' (TYPE_UINT32), \"test\"",
+        "errors": [
+            {
+                "message": "Invalid value at 'home_mobile_country_code' (TYPE_UINT32), \"test\"",
+                "reason": "invalid"
+            }
+        ],
+        "status": "INVALID_ARGUMENT",
+        "details": [
+            {
+                "@type": "type.googleapis.com/google.rpc.BadRequest",
+                "fieldViolations": [
+                    {
+                        "field": "home_mobile_country_code",
+                        "description": "Invalid value at 'home_mobile_country_code' (TYPE_UINT32), \"test\""
+                    }
+                ]
+            }
+        ]
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Invalid homeMobileNetworkCode&quot;, &quot;Geolocation API&quot;](6)" classname="runner.TestRunner" time="0.341">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCl1cbsG4EVO7wJ103IqTG4xheubQY9AzM
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "homeMobileCountryCode": 310,
+    "homeMobileNetworkCode": "test",
+    "radioType": "gsm",
+    "carrier": "Vodafone",
+    "considerIp": true
+}
+{
+    "error": {
+        "code": 400,
+        "message": "Invalid value at 'home_mobile_network_code' (TYPE_UINT32), \"test\"",
+        "errors": [
+            {
+                "message": "Invalid value at 'home_mobile_network_code' (TYPE_UINT32), \"test\"",
+                "reason": "invalid"
+            }
+        ],
+        "status": "INVALID_ARGUMENT",
+        "details": [
+            {
+                "@type": "type.googleapis.com/google.rpc.BadRequest",
+                "fieldViolations": [
+                    {
+                        "field": "home_mobile_network_code",
+                        "description": "Invalid value at 'home_mobile_network_code' (TYPE_UINT32), \"test\""
+                    }
+                ]
+            }
+        ]
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Unsupported radioType&quot;, &quot;Geolocation API&quot;](7)" classname="runner.TestRunner" time="0.31">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCl1cbsG4EVO7wJ103IqTG4xheubQY9AzM
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "homeMobileCountryCode": 310,
+    "homeMobileNetworkCode": 410,
+    "radioType": "test",
+    "carrier": "Vodafone",
+    "considerIp": true
+}
+{
+    "error": {
+        "code": 400,
+        "message": "Invalid value at 'radio_type' (type.googleapis.com/maps_api.GeolocationRequest.RadioType), \"test\"",
+        "errors": [
+            {
+                "message": "Invalid value at 'radio_type' (type.googleapis.com/maps_api.GeolocationRequest.RadioType), \"test\"",
+                "reason": "invalid"
+            }
+        ],
+        "status": "INVALID_ARGUMENT",
+        "details": [
+            {
+                "@type": "type.googleapis.com/google.rpc.BadRequest",
+                "fieldViolations": [
+                    {
+                        "field": "radio_type",
+                        "description": "Invalid value at 'radio_type' (type.googleapis.com/maps_api.GeolocationRequest.RadioType), \"test\""
+                    }
+                ]
+            }
+        ]
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Invalid JSON Structure&quot;, &quot;Geolocation API&quot;](8)" classname="runner.TestRunner" time="0.361">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCl1cbsG4EVO7wJ103IqTG4xheubQY9AzM
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+[
+    {
+        "homeMobileCountryCode": 310,
+        "homeMobileNetworkCode": 410,
+        "radioType": "gsm",
+        "carrier": "Vodafone",
+        "considerIp": true
+    }
+]
+{
+    "error": {
+        "code": 400,
+        "message": "Invalid JSON payload received. Unknown name \"\": Root element must be a message.",
+        "errors": [
+            {
+                "message": "Invalid JSON payload received. Unknown name \"\": Root element must be a message.",
+                "reason": "invalid"
+            }
+        ],
+        "status": "INVALID_ARGUMENT",
+        "details": [
+            {
+                "@type": "type.googleapis.com/google.rpc.BadRequest",
+                "fieldViolations": [
+                    {
+                        "description": "Invalid JSON payload received. Unknown name \"\": Root element must be a message."
+                    }
+                ]
+            }
+        ]
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Consider IP as False&quot;, &quot;Geolocation API&quot;](9)" classname="runner.TestRunner" time="0.361">
+    <failure message="expected [403] but found [404]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [403] but found [404]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at stepDefinitions.geolocationVerificationStepDefinition.theAPIShouldReturnAStatusCode(geolocationVerificationStepDefinition.java:47)
+	at ✽.the API should return a 404 status code(file:///Users/monikadubey/Downloads/GeolocationApiAutomation-master%202/src/test/resources/features/geolocationVerification.feature:54)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCl1cbsG4EVO7wJ103IqTG4xheubQY9AzM
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "homeMobileCountryCode": 310,
+    "homeMobileNetworkCode": 410,
+    "radioType": "gsm",
+    "carrier": "Vodafone",
+    "considerIp": false
+}
+{
+    "error": {
+        "code": 403,
+        "message": "PERMISSION_DENIED: You must enable Billing on the Google Cloud Project",
+        "errors": [
+            {
+                "message": "PERMISSION_DENIED: You must enable Billing on the Google Cloud Project",
+                "domain": "geolocation",
+                "reason": "forbidden"
+            }
+        ]
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate with Only homeMobileCountryCode and homeMobileNetworkCode&quot;, &quot;Geolocation API&quot;](10)" classname="runner.TestRunner" time="0.373">
+    <failure message="expected [403] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [403] but found [200]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at stepDefinitions.geolocationVerificationStepDefinition.theAPIShouldReturnAStatusCode(geolocationVerificationStepDefinition.java:47)
+	at ✽.the API should return a 200 status code(file:///Users/monikadubey/Downloads/GeolocationApiAutomation-master%202/src/test/resources/features/geolocationVerification.feature:60)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCl1cbsG4EVO7wJ103IqTG4xheubQY9AzM
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "homeMobileCountryCode": 310,
+    "homeMobileNetworkCode": 410,
+    "radioType": null,
+    "carrier": null,
+    "considerIp": null
+}
+{
+    "error": {
+        "code": 403,
+        "message": "PERMISSION_DENIED: You must enable Billing on the Google Cloud Project",
+        "errors": [
+            {
+                "message": "PERMISSION_DENIED: You must enable Billing on the Google Cloud Project",
+                "domain": "geolocation",
+                "reason": "forbidden"
+            }
+        ]
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Valid Request without considerIp&quot;, &quot;Geolocation API&quot;](11)" classname="runner.TestRunner" time="0.331">
+    <failure message="expected [403] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [403] but found [200]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at stepDefinitions.geolocationVerificationStepDefinition.theAPIShouldReturnAStatusCode(geolocationVerificationStepDefinition.java:47)
+	at ✽.the API should return a 200 status code(file:///Users/monikadubey/Downloads/GeolocationApiAutomation-master%202/src/test/resources/features/geolocationVerification.feature:66)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyCl1cbsG4EVO7wJ103IqTG4xheubQY9AzM
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "homeMobileCountryCode": 310,
+    "homeMobileNetworkCode": 410,
+    "radioType": "gsm",
+    "carrier": "Vodafone",
+    "considerIp": null
+}
+{
+    "error": {
+        "code": 403,
+        "message": "PERMISSION_DENIED: You must enable Billing on the Google Cloud Project",
+        "errors": [
+            {
+                "message": "PERMISSION_DENIED: You must enable Billing on the Google Cloud Project",
+                "domain": "geolocation",
+                "reason": "forbidden"
+            }
+        ]
+    }
+}
+]]></system-out>
+  </testcase>
+</testsuite>
